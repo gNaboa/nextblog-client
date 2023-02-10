@@ -1,0 +1,33 @@
+.PostContainer{
+       display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+       justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+
+
+       
+.PostInfo{
+ a{
+  text-decoration: none;
+  color: inherit;
+ }
+    
+    .PostAuthor{
+          display: flex;
+          align-items: center;
+           gap: 10px;
+          font-size: 14px;
+          color: #888;
+          a{
+            text-decoration: none;
+            color: #888;
+            font-weight: bold;
+          }
+          p{
+            margin: 0;
+          }
+    }
+  
+}
+}
